@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        Color my activities
+// @name        [Intranet] Activity Color if Teacher
 // @namespace   Violentmonkey Scripts
 // @match       https://intra.epitech.eu/planning/
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      Julien Chassard ( julien1.chassard@epitech.eu )
 // @updateURL   https://raw.githubusercontent.com/julienc-e/vmscripts/master/intra/color_activity_teacher.js
 // @description 26/09/2022 10:59:59
