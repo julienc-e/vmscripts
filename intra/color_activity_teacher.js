@@ -19,7 +19,7 @@ const config = { attributes: true, childList: true, subtree: true };
 const callback = function(mutationList, observer) {
     var appointments = document.getElementsByClassName("appoint");
     for (appointment of appointments) {
-      if (appointment.attributes["class"].nodeValue.includes("present")) {
+      if (appointment.attributes["class"].nodeValue.includes("present") || appointment.attributes["class"].nodeValue.includes("perso_registered")) {
             appointment.style["background-color"] = "#d32f2f"
             appointment.childNodes[0].childNodes[0].childNodes[0].childNodes[0].childNodes[0].style["color"] = "#ffffff"
             appointment.style["color"] = "#ffffff"
